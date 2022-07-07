@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Katie L. Zumpano | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <nav>
+        <h1>KATIE L. ZUMPANO</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="about">
+        <img
+          src="assets\images\main logo.png"
+          alt="jane-doe"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            Hey! I'm Katie, and I'm a Full stack Java Developer with a passion for Front End design, creative problem solving,
+            and buckets of coffee. Resident of the PNW, mom to a small dog with a big attitude, and 
+            enthusiastic about tech!
+
+          </p>
+        </div>
+  </section>
+
+    <!-- More about -->
+
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+            I've always been a person drawn to coloring-outside-the-lines and adjusting-pixels-to-make-it-perfect.
+          So, when I started teaching myself the basics of Python after quitting my desk job, I realized that coding might have been the path I was looking for as I began to figure 
+          out that programming satisfies my desire to problem-solve, create, and engage with new challenges on every level. I was accepted into the January 2022 Merit America Java Web Development cohort by November of 2021, and 
+          spent my time leading up to the start of the program practicing and learning Java basics. Now, less than 10 weeks shy of completing the intensive 30 week program, 
+          I'm proudly able to call myself a developer with almost a full year of hands on coding experience, 
+          and I'm ready to take on a whole new career.
+        </p>
+        <p>
+            September of this year will see my completion of the Full Stack Web Application Development program, focused on hands-on coursework in Java Development, 
+            Client-Server Programming (SQL + Spring) and Frontend Development (Classic Web + React). 
+            I am now trained on software development methodologies such as Agile, 12 Factor Apps, Git and Design Patterns. 
+            In addition to conquering many individual assignments, pair programming assignments and algorithm problems, I applied my abilities by building two capstone projects featuring OOP principles, Java, 
+            Spring, Relational Databases, REST APIs and web development with React using ES6 JavaScript. (This website I built to feature my portfolio was one of my personal projects,
+            featuring original vectors I drew myself!)
+        </p>
+        <p>
+            I am enthusiastic about joining an environment in the tech industry that encourages growth and professional development! Some of my personal passions and priorities include advocacy, reducing environmental impact, and protecting human rights. 
+            My dream job would be for a company that values inclusivity and diversity in their hiring practices, 
+            and allows me use my development skills in a collaborative team setting that reflects those same passions and priorities.
+            Check out my socials or GitHub for more of my active projects, and drop me a line below if you'd like to know more!
+        </p>
+      </section>
+
+    <!-- Skills section -->
+
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+  
+        <div class="skills-wrapper">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="assets\images\icons8-html-128.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets\images\icons8-css-128.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets\images\icons8-javascript-128.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+        </div>
+        <div class="second-set animate__animated animate__pulse"></div>
+            <img
+              src="assets\images\icons8-java-128.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets\images\icons8-react-128.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+        </div>
+        </div>
+      </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="assets\images\TEnmotitlepage.png"
+              alt="tenmo-project"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">TEnmo</h3>
+            <p class="project-details">
+                Mock peer-to-peer money transfer application allowing users to send, request and approve transfers of "TE Bucks". 
+                
+            </p>
+            <a href="tenmo.html" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <!--<div class="project-container project-card">
+            <img
+              src="assets/images/netflixClone.png"
+              alt="netflic-clone"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Netflix Clone</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/greenyEarth.png"
+              alt="greeny-earth"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Greeny Earth</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>-->
+        </div>
+      </section>
+
+    <!-- Contact section -->
+
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/mdobrepp" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+        <a href="#" target="_blank"
+          ><img
+            src="assets\images\icons8-twitter.gif"
+            alt="Twitter"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            src="assets\images\icons8-instagram.gif"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://www.linkedin.com/in/katie-zumpano/" target="_blank"
+          ><img
+            src="assets\images\icons8-linkedin-circled.gif"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://github.com/KZumpp" target="_blank"
+          ><img src="assets\images\icons8-github.gif" alt="Github" class="socicon"
+        /></a>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets\images\icons8-scroll-up.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+
+    <!-- Footer section -->
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</head>
+<body>
+    
+</body>
+</html>

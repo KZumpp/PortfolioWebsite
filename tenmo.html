@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEnmo</title>
+    <link rel = "stylesheet" href = "assets\css\styles.css"/>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+<body>
+    <nav>
+    <h1 class="project-header">TEnmo</h1>
+    <ul class="navigation">
+    <li><a href="index.html" target="_blank" class="nav-link">Return To Homepage</a></li>
+</ul>
+</nav>
+<section class="video">
+<video width="50%" height="50%" controls >
+    <source src="assets\videos\TENMO.mov" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+  <p class="more-about">
+    Second capstone project for Merit America, which was a mock peer-to-peer money transfer application allowing users to send, request and approve transfers of "TE Bucks". 
+    Frontend is a command-line application communicating with a RESTful API server in the backend. With my cohort partner, utilized JDBC for core functionality, 
+    testing API methods in Postman and authoring efficient SQL statements using pgAdmin dummy data.
+    Built both server-side and client-side of app, with a focus on Spring exception handling, as well as maintaining clean DRY code. 
+    Our code does include all the optional use cases, as well as exception handling that prevents users from sending money to themselves, going into the negative, 
+    sending an invalid amount, or approving a request that would bankrupt the other user. 
+    Full source code available <a href= "https://github.com/KZumpp/CapstoneTEnmo">here</a>.
+  </p>
+</section>
+
+<div class="socials">
+    <a href="#" target="_blank"
+      ><img
+        src="assets\images\icons8-twitter.gif"
+        alt="Twitter"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+      ><img
+        src="assets\images\icons8-instagram.gif"
+        alt="Instagram"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+      ><img
+        src="assets\images\icons8-linkedin-circled.gif"
+        alt="Linkedin"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+      ><img src="assets\images\icons8-github.gif" alt="Github" class="socicon"
+    /></a>
+
+<!-- Scroll to top -->
+<i class="scroll-up" id="scroll-up"
+  ><img
+    src="assets\images\icons8-scroll-up.gif"
+    class="socicon up-arrow"
+    alt="scroll-up"
+/></i>
+
+<script src="assets/js/app.js"></script>
+
+</head>
+</body>
+</html>
