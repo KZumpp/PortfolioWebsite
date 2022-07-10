@@ -382,6 +382,12 @@ body {
       .contact-form-container {
         max-width: 23.75rem;
       }
+
+      .video {
+        width: 20.875rem;
+        flex-wrap: wrap;
+        
+     }
       
   }
 
@@ -398,4 +404,10 @@ body {
     .contact-form-container {
       max-width: 17.75rem;
     }
+    .video {
+        max-width: auto;
+        flex-wrap: wrap;
+    }
+
+
   } 
